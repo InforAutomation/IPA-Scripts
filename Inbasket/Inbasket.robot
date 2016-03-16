@@ -63,7 +63,3 @@ UserLogin_LoginWithInvalidCredentials
     Click Button    ${InhasketLoginButton}
     Page Should Contain Element    xpath=//html/body/div/form/div[2]/div[@class='errorText']
     Close All Browsers
-
-TestBrowser
-    Open Browser    www.youtube.com
-    Close All Browsers
